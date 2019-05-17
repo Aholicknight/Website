@@ -40,6 +40,7 @@ and more flexability than object-fit -->
         <div style="display:none">
           <img :src="images[Math.abs(currentNumber + 1) % images.length]"/>
         </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MT-XP4A-Ktg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
     <br/>
