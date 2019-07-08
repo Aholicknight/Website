@@ -10,7 +10,7 @@
               <li><a href="./faq">FAQ</a></li>
               <li><a href="./mentors">Mentors</a></li>
               <li><a href="./register">Register</a></li>
-			  <li><a href="./policy">Policy</a></li>
+	      <li><a href="./policy">Policy</a></li>
             </ul>
             <div id="nav-handle"><i class="fa fa-bars" aria-hidden="true"></i> Menu</div>
           </nav>
