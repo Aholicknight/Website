@@ -36,6 +36,11 @@ var footerSlideshow = new Vue({
         src: "audiowarehouse.png",
         link: "http://audiowarehouse.ca/",
         name: "Audio Warehouse"
+      },
+      {
+        src: "iqmetrix.png",
+        link: "http://iqmetrix.ca",
+        name: "iQ Metrix"
       }
     ],
     item: 0,
