@@ -3,11 +3,6 @@ var footerSlideshow = new Vue({
   data: {
     logos: [
       {
-        src: "cslogo.png",
-        link: "http://www.cs.uregina.ca/",
-        name: "U of R Computer Science"
-      },
-      {
         src: "innovationsask.png",
         link: "http://www.innovationsask.ca/",
         name: "Innovation Saskatchewan"
@@ -33,14 +28,19 @@ var footerSlideshow = new Vue({
         name: "Metric Hosting"
       },
       {
-        src: "saskpower.png",
-        link: "https://saskpower.com",
-        name: "SaskPower"
+        src: "conexus.png",
+        link: "https://www.conexus.ca/",
+        name: "Conexus"
       },
       {
-        src: "ohmedia.png",
-        link: "http://ohmedia.ca/",
-        name: "OH! Media"
+        src: "audiowarehouse.png",
+        link: "http://audiowarehouse.ca/",
+        name: "Audio Warehouse"
+      },
+      {
+        src: "iqmetrix.png",
+        link: "http://iqmetrix.ca",
+        name: "iQ Metrix"
       }
     ],
     item: 0,

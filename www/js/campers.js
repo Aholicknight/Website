@@ -1,7 +1,7 @@
 var camperApp = new Vue({
   el: "#camper-app",
   data: {
-    year: 2018,
+    year: 2019,
     campers: [],
     names: [],
   },
@@ -31,7 +31,7 @@ var camperApp = new Vue({
       return "http://compcamps.com/img/campers/" + this.year + "/" + src.toLowerCase() + ".jpg";
     },
     github: function(username) {
-      return "http://" + username + ".github.io/CompCamps2018";
+      return "http://" + username + ".github.io/compcamps" + this.year.toString();
     }
   }
 });
